@@ -32,7 +32,11 @@ div.info {
   justify-content: space-between;
 }
 
-@media screen {
+@media screen and (max-width: 768px) {
+  div.info {
+    width: 200px;
+    left: 0;
+  }
 }
 
 h1 {
